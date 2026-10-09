@@ -1,0 +1,115 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4204 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (JAVA PROGRAMMING - CHAPTER 1: JAVA FUNDAMENTALS & CONTROL STRUCTURES) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Java Fundamentals & Control Flow - Quick Revision Cheat Sheet) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (QUICK REVISION & EXAM CHEAT SHEET) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Java Programming   |   Chapter: Chapter 1: Java Fundamentals & Control Structures   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (Core Architecture Summary) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 639 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 639 Td (JDK = JRE + Development Tools \(compiler, debugger\). JRE = JVM + Standard Core) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 627 Td (Libraries.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 614 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 614 Td (Bytecode \(.class\) is executed by the JVM interpreter and compiled to native) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 602 Td (machine code via JIT.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 589 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 589 Td (Java is strictly Pass-by-Value for both primitive types and object references.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 562 Td (Data Types & Memory Sizes) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 556 m 567 556 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 542 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 542 Td (byte: 1 byte \(-128 to 127\) | short: 2 bytes | int: 4 bytes | long: 8 bytes) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 530 Td (\(suffix L\)) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 517 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 517 Td (float: 4 bytes \(suffix f\) | double: 8 bytes \(default decimal\) | char: 2 bytes) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 505 Td (\(Unicode\) | boolean: 1 bit logical) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 492 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 492 Td (Widening conversion is automatic; Narrowing requires explicit cast) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 480 Td (`\(targetType\) value`.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 453 Td (Control Flow Key Rules) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 447 m 567 447 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 433 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 433 Td (switch works with byte, short, char, int, String, and Enums. Floating point) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 421 Td (types are NOT supported.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 408 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 408 Td (do-while executes the body at least once regardless of condition validity.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 395 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 395 Td (Enhanced for loop syntax: `for \(ElementType item : collection\)`.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 368 Td (Important Exam Traps & Best Practices) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 362 m 567 362 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 348 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 348 Td (Variables declared inside a method \(local variables\) must be initialized) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 336 Td (before use; they receive no default values.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 323 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 323 Td (Instance variables and static fields are automatically initialized to default) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 311 Td (values \(0, null, false\).) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 298 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 298 Td (String objects in Java are immutable; string concatenation inside intensive) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 286 Td (loops should use StringBuilder.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4716
+%%EOF

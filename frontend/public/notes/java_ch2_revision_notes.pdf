@@ -1,0 +1,110 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3947 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (JAVA PROGRAMMING - CHAPTER 2: OBJECT-ORIENTED PROGRAMMING & COLLECTIONS) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Java OOP & Collections - Quick Revision Cheat Sheet) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (QUICK REVISION & EXAM CHEAT SHEET) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Java Programming   |   Chapter: Chapter 2: Object-Oriented Programming & Collections   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (OOP Quick Summary) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 639 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 639 Td (Encapsulation: Private fields + public getters/setters.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 626 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 626 Td (Inheritance: `class Dog extends Animal`. `super\(\)` calls parent constructor.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 613 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 613 Td (Polymorphism: Parent reference pointing to child object: `Animal a = new) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 601 Td (Dog\(\); a.makeSound\(\);`.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 588 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 588 Td (Abstraction: `abstract class` for partial implementation; `interface` for pure) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 576 Td (contracts.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 549 Td (Collections Framework Complexity Cheat Sheet) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 543 m 567 543 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 529 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 529 Td (ArrayList: O\(1\) random access, O\(n\) arbitrary insertion/deletion, dynamic) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 517 Td (growth by 50%.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 504 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 504 Td (LinkedList: O\(n\) search, O\(1\) insertion at ends, higher memory overhead per) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 492 Td (node.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 479 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 479 Td (HashSet: O\(1\) lookup, unordered, relies on equals\(\) and hashCode\(\) contract.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 466 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 466 Td (TreeSet / TreeMap: O\(log n\) lookup, sorted by Comparable or Comparator.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 453 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 453 Td (HashMap: Key-value pairs, O\(1\) average lookup, converts buckets to red-black) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 441 Td (trees at threshold 8.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 414 Td (Equals and HashCode Contract) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 408 m 567 408 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 394 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 394 Td (If two objects are equal according to equals\(\), their hashCode\(\) MUST be) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 382 Td (identical.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 369 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 369 Td (If two objects have the same hashCode\(\), they are not necessarily equal \(hash) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 357 Td (collision\).) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 344 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 344 Td (Always override both equals\(\) and hashCode\(\) together when using custom keys) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 332 Td (in HashMaps or HashSets.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4459
+%%EOF

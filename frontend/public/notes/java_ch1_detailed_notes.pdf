@@ -1,0 +1,156 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 8 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Length 5622 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (JAVA PROGRAMMING - CHAPTER 1: JAVA FUNDAMENTALS & CONTROL STRUCTURES) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Java Fundamentals & Control Structures - Detailed Lecture Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Java Programming   |   Chapter: Chapter 1: Java Fundamentals & Control Structures   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. Introduction to the Java Platform & Virtual Machine) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (Java is a high-level, class-based, object-oriented programming language designed) Tj ET
+BT /F1 9.5 Tf 45 626 Td (with the philosophy of "Write Once, Run Anywhere" \(WORA\). This cross-platform) Tj ET
+BT /F1 9.5 Tf 45 613 Td (portability is achieved through the compilation of source code into an intermediate) Tj ET
+BT /F1 9.5 Tf 45 600 Td (representation known as bytecode, which is executed by the Java Virtual Machine) Tj ET
+BT /F1 9.5 Tf 45 587 Td (\(JVM\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 569 Td (The JVM architecture comprises three primary subsystems: the Class Loader Subsystem,) Tj ET
+BT /F1 9.5 Tf 45 556 Td (the Runtime Data Areas, and the Execution Engine. The runtime data areas include the) Tj ET
+BT /F1 9.5 Tf 45 543 Td (Method Area, Heap, JVM Stacks, Program Counter \(PC\) Registers, and Native Method) Tj ET
+BT /F1 9.5 Tf 45 530 Td (Stacks.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 512 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 512 Td (JDK \(Java Development Kit\): Contains the compiler \(javac\), documentation) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 500 Td (tools, and the JRE necessary for software development.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 487 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 487 Td (JRE \(Java Runtime Environment\): Provides libraries, the Java Virtual Machine) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 475 Td (\(JVM\), and other components to run Java applications.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 462 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 462 Td (JVM \(Java Virtual Machine\): An abstract computing machine that enables a) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 450 Td (computer to run Java programs through Just-In-Time \(JIT\) compilation.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 423 Td (2. Primitive Data Types, Variables & Type Conversion) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 417 m 567 417 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 403 Td (Java defines eight primitive data types: byte \(8-bit\), short \(16-bit\), int \(32-bit\),) Tj ET
+BT /F1 9.5 Tf 45 390 Td (long \(64-bit\), float \(32-bit IEEE 754\), double \(64-bit IEEE 754\), boolean) Tj ET
+BT /F1 9.5 Tf 45 377 Td (\(true/false\), and char \(16-bit Unicode UTF-16\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 359 Td (Type casting in Java occurs in two modes: Widening Casting \(automatic\) when) Tj ET
+BT /F1 9.5 Tf 45 346 Td (converting a smaller type to a larger type size \(e.g., int to double\), and Narrowing) Tj ET
+BT /F1 9.5 Tf 45 333 Td (Casting \(manual\) requiring explicit casts \(e.g., \(int\) myDouble\) which may result in) Tj ET
+BT /F1 9.5 Tf 45 320 Td (data truncation.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 302 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 302 Td (Primitive types are stored on the call stack for fast execution, whereas) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 290 Td (objects are allocated on the garbage-collected heap.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 277 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 277 Td (Wrapper classes \(Integer, Double, Character\) enable primitives to be utilized) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 265 Td (within Java Collections through autoboxing and unboxing.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 238 Td (3. Control Flow Statements & Decision Structures) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 232 m 567 232 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 218 Td (Decision making statements include if, if-else, nested if, and switch-case. Modern) Tj ET
+BT /F1 9.5 Tf 45 205 Td (Java \(Java 14+\) supports enhanced switch expressions with arrow syntax and multiple) Tj ET
+BT /F1 9.5 Tf 45 192 Td (case labels.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 174 Td (Looping constructs comprise while \(entry-controlled\), do-while \(exit-controlled,) Tj ET
+BT /F1 9.5 Tf 45 161 Td (executing at least once\), standard for, and enhanced for-each loops iterating over) Tj ET
+BT /F1 9.5 Tf 45 148 Td (arrays and Iterable collections.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 130 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 130 Td (break: Immediately terminates the innermost loop or switch construct.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 117 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 117 Td (continue: Skips the remainder of the current iteration and jumps to the loop) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 105 Td (evaluation step.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 92 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 92 Td (Labeled breaks and continues allow breaking out of nested outer loops.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 2) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Length 1209 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (JAVA PROGRAMMING - CHAPTER 1: JAVA FUNDAMENTALS & CONTROL STRUCTURES) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 732 Td (4. Methods, Stack Frames & Scope Rules) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 726 m 567 726 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 712 Td (In Java, all method arguments are passed strictly by value. When passing an object) Tj ET
+BT /F1 9.5 Tf 45 699 Td (reference, the reference value itself is copied; thus, mutating the object state) Tj ET
+BT /F1 9.5 Tf 45 686 Td (affects the caller, but reassigning the reference variable does not alter the caller) Tj ET
+BT /F1 9.5 Tf 45 673 Td (reference.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 655 Td (Method overloading occurs when multiple methods within the same class share the same) Tj ET
+BT /F1 9.5 Tf 45 642 Td (identifier but have distinct parameter lists \(different arity or types\).) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 2 of 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000131 00000 n 
+0000000267 00000 n 
+0000000403 00000 n 
+0000000500 00000 n 
+0000000602 00000 n 
+0000006276 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+7537
+%%EOF

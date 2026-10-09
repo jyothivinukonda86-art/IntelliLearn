@@ -1,0 +1,100 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3403 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (OPERATING SYSTEMS - CHAPTER 3: MEMORY MANAGEMENT, VIRTUAL MEMORY & FILE SYSTEMS) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Virtual Memory & File Systems - Quick Revision Cheat Sheet) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (QUICK REVISION & EXAM CHEAT SHEET) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Operating Systems   |   Chapter: Chapter 3: Memory Management, Virtual Memory & File Systems   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (Paging & TLB Calculations) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 639 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 639 Td (Logical address: Page Number \(p\) + Offset \(d\). Number of pages = 2^p; Page) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 627 Td (size = 2^d.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 614 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 614 Td (Effective Access Time \(EAT\) = \(TLB_Hit_Ratio * \(TLB_Time + Mem_Time\)\) + \(\(1 -) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 602 Td (TLB_Hit_Ratio\) * \(TLB_Time + 2 * Mem_Time\)\).) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 589 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 589 Td (Paging eliminates external fragmentation, but incurs internal fragmentation on) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 577 Td (the final page frame.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 550 Td (Page Replacement Algorithms Comparison) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 544 m 567 544 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 530 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 530 Td (FIFO: Replaces oldest loaded page. Suffers from Belady's Anomaly.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 517 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 517 Td (LRU: Replaces page least recently referenced. Free from Belady's Anomaly.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 504 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 504 Td (Optimal: Replaces page that will not be used for longest time in future.) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 492 Td (Minimizes page faults.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 465 Td (Disk Scheduling Algorithms) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 459 m 567 459 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 445 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 445 Td (SSTF selects request with minimum seek time from current head position; may) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 433 Td (starve distant requests.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 420 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 420 Td (SCAN sweeps from one end to the other servicing requests; reverses direction) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 408 Td (at disk boundary.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 395 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 395 Td (C-SCAN sweeps in one direction servicing requests, then immediately returns to) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 383 Td (start without servicing.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3915
+%%EOF

@@ -1,0 +1,102 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4085 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (JAVA PROGRAMMING - CHAPTER 3: ADVANCED MULTITHREADING, CONCURRENCY & JVM INTERNALS) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Multithreading, Concurrency & JVM Internals - Detailed Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Java Programming   |   Chapter: Chapter 3: Advanced Multithreading, Concurrency & JVM Internals   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. Thread Lifecycle & Thread Creation) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (A thread is a lightweight unit of execution. In Java, threads transition through) Tj ET
+BT /F1 9.5 Tf 45 626 Td (states: NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, and TERMINATED.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 608 Td (Threads can be created by extending the Thread class or implementing the Runnable /) Tj ET
+BT /F1 9.5 Tf 45 595 Td (Callable interfaces. Implementing Runnable is preferred because Java does not) Tj ET
+BT /F1 9.5 Tf 45 582 Td (support multiple inheritance, promoting clean separation of task and execution.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 556 Td (2. Synchronization, Locks & Java Concurrency Utilities) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 550 m 567 550 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 536 Td (The synchronized keyword ensures mutual exclusion using an object monitor lock) Tj ET
+BT /F1 9.5 Tf 45 523 Td (\(intrinsic lock\). While effective, synchronized blocks can cause thread starvation) Tj ET
+BT /F1 9.5 Tf 45 510 Td (and lack timeout capabilities.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 492 Td (The java.util.concurrent package provides ReentrantLock, ReadWriteLock, Semaphore,) Tj ET
+BT /F1 9.5 Tf 45 479 Td (CountDownLatch, and CyclicBarrier for advanced thread coordination.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 461 Td (Atomic classes \(AtomicInteger, AtomicReference\) leverage hardware Compare-And-Swap) Tj ET
+BT /F1 9.5 Tf 45 448 Td (\(CAS\) instructions to achieve non-blocking lock-free thread safety.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 430 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 430 Td (volatile keyword: Guarantees visibility across CPU caches by reading directly) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 418 Td (from main memory and preventing instruction reordering.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 405 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 405 Td (ExecutorService: Thread pool management abstraction decoupling task submission) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 393 Td (from thread management \(Executors.newFixedThreadPool, newCachedThreadPool\).) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 366 Td (3. JVM Memory Model & Garbage Collection Algorithms) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 360 m 567 360 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 346 Td (The Java Memory Model \(JMM\) defines how threads interact through memory. The Heap is) Tj ET
+BT /F1 9.5 Tf 45 333 Td (segregated into Young Generation \(Eden, Survivor S0, S1\) and Old \(Tenured\)) Tj ET
+BT /F1 9.5 Tf 45 320 Td (Generation.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 302 Td (Minor GC collects short-lived objects in Young Gen via the Stop-the-World copying) Tj ET
+BT /F1 9.5 Tf 45 289 Td (collector. Surviving objects are promoted to Old Gen. Major/Full GC reclaims Old Gen) Tj ET
+BT /F1 9.5 Tf 45 276 Td (memory.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 258 Td (Modern garbage collectors include G1 GC \(Garbage-First\), ZGC \(low-latency concurrent) Tj ET
+BT /F1 9.5 Tf 45 245 Td (collector\), and Shenandoah GC, designed to keep pause times under 10 milliseconds.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4597
+%%EOF

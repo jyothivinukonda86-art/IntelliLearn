@@ -1,0 +1,112 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4367 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (SOFTWARE ENGINEERING - CHAPTER 2: SYSTEM ARCHITECTURE, SOLID PRINCIPLES & DESIGN PATTERNS) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (System Architecture, SOLID Principles & GoF Patterns - Detailed Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Software Engineering   |   Chapter: Chapter 2: System Architecture, SOLID Principles & Design Patterns   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. The SOLID Principles of Object-Oriented Design) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (Single Responsibility Principle \(SRP\): A class should have one, and only one, reason) Tj ET
+BT /F1 9.5 Tf 45 626 Td (to change.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 608 Td (Open/Closed Principle \(OCP\): Software entities should be open for extension, but) Tj ET
+BT /F1 9.5 Tf 45 595 Td (closed for modification.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 577 Td (Liskov Substitution Principle \(LSP\): Subtypes must be substitutable for their base) Tj ET
+BT /F1 9.5 Tf 45 564 Td (types without altering program correctness.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 546 Td (Interface Segregation Principle \(ISP\): Clients should not be forced to depend upon) Tj ET
+BT /F1 9.5 Tf 45 533 Td (interfaces they do not use \(prefer small, role-specific interfaces\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 515 Td (Dependency Inversion Principle \(DIP\): High-level modules should not depend on) Tj ET
+BT /F1 9.5 Tf 45 502 Td (low-level modules; both should depend on abstractions \(interfaces\).) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 476 Td (2. Gang of Four \(GoF\) Design Patterns) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 470 m 567 470 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 456 Td (Creational Patterns: Deal with object creation mechanisms.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 438 Td (Singleton: Ensures a class has only one instance and provides a global point of) Tj ET
+BT /F1 9.5 Tf 45 425 Td (access.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 407 Td (Factory Method: Defines an interface for creating an object, deferring instantiation) Tj ET
+BT /F1 9.5 Tf 45 394 Td (to subclasses.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 376 Td (Builder: Separates the construction of a complex object from its representation.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 358 Td (Structural Patterns: Deal with object composition.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 340 Td (Adapter: Converts the interface of a class into another interface clients expect.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 322 Td (Decorator: Dynamically attaches additional responsibilities to an object.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 304 Td (Behavioral Patterns: Deal with algorithms and communication between objects.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 286 Td (Observer: Defines a one-to-many dependency so that when one object changes state,) Tj ET
+BT /F1 9.5 Tf 45 273 Td (all dependents are notified.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 255 Td (Strategy: Defines a family of algorithms, encapsulates each, and makes them) Tj ET
+BT /F1 9.5 Tf 45 242 Td (interchangeable at runtime.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 216 Td (3. Architectural Styles & Modularity) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 210 m 567 210 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 196 Td (Monolithic Architecture: Unified single codebase deploying all application tiers) Tj ET
+BT /F1 9.5 Tf 45 183 Td (together. Simple initial development, but challenges in scaling independent modules.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 165 Td (Microservices Architecture: Collection of small, autonomous, independently) Tj ET
+BT /F1 9.5 Tf 45 152 Td (deployable services communicating over lightweight protocols \(REST, gRPC, message) Tj ET
+BT /F1 9.5 Tf 45 139 Td (queues\). Promotes polyglot tech stacks and fault isolation.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4879
+%%EOF

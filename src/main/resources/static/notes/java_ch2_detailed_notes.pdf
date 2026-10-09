@@ -1,0 +1,110 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4611 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (JAVA PROGRAMMING - CHAPTER 2: OBJECT-ORIENTED PROGRAMMING & COLLECTIONS) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (OOP Principles, Interfaces & Collections Framework - Detailed Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Java Programming   |   Chapter: Chapter 2: Object-Oriented Programming & Collections   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. The Four Pillars of Object-Oriented Programming) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (Encapsulation: Bundling data \(attributes\) and methods that operate on that data into) Tj ET
+BT /F1 9.5 Tf 45 626 Td (a single unit \(class\), while restricting direct access using access modifiers) Tj ET
+BT /F1 9.5 Tf 45 613 Td (\(private, protected, public, package-private\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 595 Td (Inheritance: Mechanism where a child class acquires properties and behaviors of a) Tj ET
+BT /F1 9.5 Tf 45 582 Td (parent class using the "extends" keyword. Java supports single class inheritance to) Tj ET
+BT /F1 9.5 Tf 45 569 Td (avoid the diamond problem, but permits multiple interface implementation.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 551 Td (Polymorphism: Ability of an object to take many forms. Compile-time polymorphism is) Tj ET
+BT /F1 9.5 Tf 45 538 Td (achieved through method overloading. Runtime polymorphism is achieved through) Tj ET
+BT /F1 9.5 Tf 45 525 Td (dynamic method dispatch via method overriding with @Override.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 507 Td (Abstraction: Hiding internal implementation details and exhibiting only essential) Tj ET
+BT /F1 9.5 Tf 45 494 Td (features using abstract classes and interfaces.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 468 Td (2. Abstract Classes versus Interfaces) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 462 m 567 462 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 448 Td (Abstract classes can declare state \(instance fields\), constructors, and both) Tj ET
+BT /F1 9.5 Tf 45 435 Td (abstract and concrete methods. They model an "is-a" relationship.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 417 Td (Interfaces define a contract. As of Java 8, interfaces can contain default and) Tj ET
+BT /F1 9.5 Tf 45 404 Td (static methods. Java 9 introduced private interface methods. Functional interfaces) Tj ET
+BT /F1 9.5 Tf 45 391 Td (contain exactly one abstract method and can be implemented via Lambda expressions.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 373 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 373 Td (A class can extend only one abstract class, but can implement unlimited) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 361 Td (interfaces.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 348 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 348 Td (Interface fields are implicitly public, static, and final.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 321 Td (3. Java Collections Framework Hierarchy) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 315 m 567 315 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 301 Td (The Collections Framework provides a unified architecture for storing and) Tj ET
+BT /F1 9.5 Tf 45 288 Td (manipulating groups of objects rooted at Iterable and Collection.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 270 Td (List: An ordered collection allowing duplicates. ArrayList provides O\(1\) random) Tj ET
+BT /F1 9.5 Tf 45 257 Td (access backed by a dynamic array. LinkedList provides O\(1\) insertions at ends backed) Tj ET
+BT /F1 9.5 Tf 45 244 Td (by a doubly-linked list.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 226 Td (Set: A collection containing no duplicate elements. HashSet provides O\(1\) average) Tj ET
+BT /F1 9.5 Tf 45 213 Td (lookup using hash codes. TreeSet guarantees O\(log n\) ordered navigation using a) Tj ET
+BT /F1 9.5 Tf 45 200 Td (Red-Black Tree.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 182 Td (Map: An object mapping keys to values with unique keys. HashMap uses an array of) Tj ET
+BT /F1 9.5 Tf 45 169 Td (buckets with collision resolution via linked lists and balanced trees \(TreeBins\)) Tj ET
+BT /F1 9.5 Tf 45 156 Td (when bucket capacity exceeds 8.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5123
+%%EOF

@@ -1,0 +1,97 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3690 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (OPERATING SYSTEMS - CHAPTER 1: OS ARCHITECTURE, SYSTEM CALLS & PROCESS MANAGEMENT) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (OS Architecture, System Calls & Processes - Detailed Lecture Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Operating Systems   |   Chapter: Chapter 1: OS Architecture, System Calls & Process Management   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. Operating System Architecture & Dual-Mode Operation) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (An Operating System is an intermediary between computer hardware and user) Tj ET
+BT /F1 9.5 Tf 45 626 Td (applications, providing hardware abstraction and resource multiplexing.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 608 Td (Dual-Mode Operation protects hardware: User Mode \(restricted instructions, cannot) Tj ET
+BT /F1 9.5 Tf 45 595 Td (directly access I/O or kernel memory\) and Kernel Mode \(privileged instructions) Tj ET
+BT /F1 9.5 Tf 45 582 Td (executed by CPU\). Transitions occur via software interrupts \(System Calls\) or) Tj ET
+BT /F1 9.5 Tf 45 569 Td (hardware interrupts.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 543 Td (2. Process Concept & Process Control Block \(PCB\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 537 m 567 537 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 523 Td (A process is an active instance of a program in execution. Its address space) Tj ET
+BT /F1 9.5 Tf 45 510 Td (consists of: Text Segment \(compiled code\), Data Segment \(global/static variables\),) Tj ET
+BT /F1 9.5 Tf 45 497 Td (Heap \(dynamically allocated memory\), and Stack \(local variables, return addresses\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 479 Td (The Process Control Block \(PCB\) maintains execution context: Process ID \(PID\),) Tj ET
+BT /F1 9.5 Tf 45 466 Td (Process State, Program Counter, CPU registers, CPU scheduling info, Memory) Tj ET
+BT /F1 9.5 Tf 45 453 Td (management info, and I/O status.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 435 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 435 Td (Process States: New, Ready, Running, Waiting \(Blocked\), and Terminated.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 422 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 422 Td (Context Switch: Storing the state of the active process in its PCB and loading) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 410 Td (the saved state of the newly scheduled process.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 383 Td (3. Process Creation, Termination & Inter-Process Communication \(IPC\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 377 m 567 377 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 363 Td (In Unix-like systems, processes are created using the fork\(\) system call, creating a) Tj ET
+BT /F1 9.5 Tf 45 350 Td (child duplicate of the parent process. The child receives return value 0, while the) Tj ET
+BT /F1 9.5 Tf 45 337 Td (parent receives child PID.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 319 Td (Inter-Process Communication mechanisms allow processes to exchange data: Shared) Tj ET
+BT /F1 9.5 Tf 45 306 Td (Memory \(fastest, requires synchronization\) and Message Passing \(queues, sockets,) Tj ET
+BT /F1 9.5 Tf 45 293 Td (pipes\).) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4202
+%%EOF

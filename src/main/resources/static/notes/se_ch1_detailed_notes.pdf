@@ -1,0 +1,111 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4518 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (SOFTWARE ENGINEERING - CHAPTER 1: SOFTWARE DEVELOPMENT LIFE CYCLES & AGILE METHODOLOGIES) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (SDLC Models, Agile Scrum & Requirements Engineering - Detailed Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Software Engineering   |   Chapter: Chapter 1: Software Development Life Cycles & Agile Methodologies   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. Software Development Life Cycle \(SDLC\) Framework) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (The Software Development Life Cycle \(SDLC\) defines a systematic process for building) Tj ET
+BT /F1 9.5 Tf 45 626 Td (software: Requirements Analysis, System Design, Implementation, Testing, Deployment,) Tj ET
+BT /F1 9.5 Tf 45 613 Td (and Maintenance.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 595 Td (Waterfall Model: Linear-sequential model suitable when requirements are clear and) Tj ET
+BT /F1 9.5 Tf 45 582 Td (immutable. Disadvantage: late defect discovery during testing.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 564 Td (Spiral Model: Risk-driven iterative model structured in four quadrants \(Determine) Tj ET
+BT /F1 9.5 Tf 45 551 Td (Objectives, Identify & Resolve Risks, Develop & Test, Plan Next Phase\).) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 525 Td (2. Agile Principles & The Scrum Framework) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 519 m 567 519 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 505 Td (The Agile Manifesto prioritizes: Individuals and interactions over processes and) Tj ET
+BT /F1 9.5 Tf 45 492 Td (tools; Working software over comprehensive documentation; Customer collaboration) Tj ET
+BT /F1 9.5 Tf 45 479 Td (over contract negotiation; and Responding to change over following a plan.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 461 Td (Scrum is an empirical Agile framework delivering software in fixed-length iterations) Tj ET
+BT /F1 9.5 Tf 45 448 Td (called Sprints \(typically 1-4 weeks\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 430 Td (Scrum Roles: Product Owner \(manages backlog priorities\), Scrum Master \(removes) Tj ET
+BT /F1 9.5 Tf 45 417 Td (blockers, facilitates process\), and Development Team \(cross-functional creators\).) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 399 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 399 Td (Sprint Planning: Selects Product Backlog Items \(PBIs\) and defines the Sprint) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 387 Td (Goal.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 374 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 374 Td (Daily Standup: 15-minute sync: What did I do yesterday? What will I do today?) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 362 Td (What blockers exist?) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 349 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 349 Td (Sprint Review: Demonstrates working software to stakeholders.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 336 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 336 Td (Sprint Retrospective: Team inspects internal processes to identify continuous) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 324 Td (improvements.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 297 Td (3. Requirements Engineering & User Story Modeling) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 291 m 567 291 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 277 Td (Requirements engineering bridges stakeholder needs and technical specifications.) Tj ET
+BT /F1 9.5 Tf 45 264 Td (Functional Requirements define what the system must do; Non-Functional Requirements) Tj ET
+BT /F1 9.5 Tf 45 251 Td (define quality attributes \(performance, security, scalability, availability\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 233 Td (User Story format: "As a [type of user], I want [an action/goal] so that [a) Tj ET
+BT /F1 9.5 Tf 45 220 Td (benefit/value].") Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 202 Td (INVEST criteria for effective user stories: Independent, Negotiable, Valuable,) Tj ET
+BT /F1 9.5 Tf 45 189 Td (Estimable, Small, and Testable.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5030
+%%EOF

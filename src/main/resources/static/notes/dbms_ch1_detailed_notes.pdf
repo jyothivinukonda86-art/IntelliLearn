@@ -1,0 +1,107 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4308 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (DATABASE MANAGEMENT SYSTEMS - CHAPTER 1: RELATIONAL MODEL, ER DIAGRAMS & SQL FUNDAMENTALS) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Relational Model, ER Diagrams & SQL - Detailed Lecture Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Database Management Systems   |   Chapter: Chapter 1: Relational Model, ER Diagrams & SQL Fundamentals   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. Database Architecture & Three-Schema Architecture) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (A Database Management System \(DBMS\) is software designed to store, manage, and) Tj ET
+BT /F1 9.5 Tf 45 626 Td (retrieve structured data securely and concurrently.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 608 Td (The ANSI-SPARC Three-Schema Architecture provides physical data independence) Tj ET
+BT /F1 9.5 Tf 45 595 Td (\(ability to alter physical storage without changing conceptual schema\) and logical) Tj ET
+BT /F1 9.5 Tf 45 582 Td (data independence \(ability to alter conceptual schema without altering user views\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 564 Td (Internal Level: Physical storage structures, indexes, block allocations.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 546 Td (Conceptual Level: Entities, data types, relationships, constraints.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 528 Td (External Level: Individual end-user views and application interfaces.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 502 Td (2. Entity-Relationship \(ER\) Modeling) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 496 m 567 496 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 482 Td (ER modeling visualizes data structures. Entities are real-world objects represented) Tj ET
+BT /F1 9.5 Tf 45 469 Td (by rectangles. Attributes are properties represented by ellipses \(Key attributes) Tj ET
+BT /F1 9.5 Tf 45 456 Td (underlined, Multivalued in double ellipses, Derived in dashed ellipses\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 438 Td (Relationships connect entities \(represented by diamonds\) with cardinality) Tj ET
+BT /F1 9.5 Tf 45 425 Td (constraints: One-to-One \(1:1\), One-to-Many \(1:N\), and Many-to-Many \(M:N\).) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 407 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 407 Td (Strong Entity: Has a primary key and independent existence.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 394 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 394 Td (Weak Entity: Cannot be uniquely identified by its own attributes; depends on a) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 382 Td (strong identifying entity via foreign key and partial discriminator key) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 370 Td (\(dashed underline\).) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 343 Td (3. SQL Data Definition & Query Language) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 337 m 567 337 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 323 Td (DDL \(Data Definition Language\): CREATE, ALTER, DROP, TRUNCATE. These commands define) Tj ET
+BT /F1 9.5 Tf 45 310 Td (and modify database schema structures and are auto-committed.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 292 Td (DML \(Data Manipulation Language\): INSERT, UPDATE, DELETE. These manipulate data) Tj ET
+BT /F1 9.5 Tf 45 279 Td (records and require COMMIT/ROLLBACK.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 261 Td (DQL \(Data Query Language\): SELECT with WHERE, GROUP BY, HAVING, ORDER BY clauses.) Tj ET
+BT /F1 9.5 Tf 45 248 Td (The logical processing order is FROM -> WHERE -> GROUP BY -> HAVING -> SELECT ->) Tj ET
+BT /F1 9.5 Tf 45 235 Td (ORDER BY -> LIMIT.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 217 Td (Joins: INNER JOIN returns matching rows; LEFT/RIGHT OUTER JOIN retains unmatched) Tj ET
+BT /F1 9.5 Tf 45 204 Td (rows from left/right table; FULL OUTER JOIN retains all rows.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4820
+%%EOF

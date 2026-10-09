@@ -1,0 +1,100 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3365 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (SOFTWARE ENGINEERING - CHAPTER 3: SOFTWARE TESTING, QUALITY ASSURANCE & DEVOPS CI/CD) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Software Testing & DevOps CI/CD - Quick Revision Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (QUICK REVISION & EXAM CHEAT SHEET) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Software Engineering   |   Chapter: Chapter 3: Software Testing, Quality Assurance & DevOps CI/CD   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (Testing Hierarchy & Best Practices) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 639 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 639 Td (Unit Tests: Fast, isolated, test single class/method. Best framework: JUnit 5) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 627 Td (+ Mockito.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 614 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 614 Td (Integration Tests: Validate interactions across components/databases. Best:) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 602 Td (Testcontainers, SpringBootTest.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 589 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 589 Td (TDD \(Test-Driven Development\): Red -> Green -> Refactor cycle.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 562 Td (Black-Box vs White-Box Testing) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 556 m 567 556 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 542 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 542 Td (Equivalence Partitioning: Group inputs where system treats all members) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 530 Td (identically.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 517 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 517 Td (Boundary Value Analysis: Bugs cluster at boundaries \(e.g. testing 0, 1, 99,) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 505 Td (100, 101\).) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 492 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 492 Td (Cyclomatic Complexity: V\(G\) = Edges - Nodes + 2. Indicates the number of) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 480 Td (independent execution paths.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 453 Td (DevOps & CI/CD Pipeline Stages) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 447 m 567 447 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 433 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 433 Td (1. Commit -> 2. Build -> 3. Unit Test -> 4. Static Code Analysis \(SonarQube\)) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 421 Td (-> 5. Package \(Docker\) -> 6. Deploy.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 408 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 408 Td (CI ensures bugs are caught within minutes of code submission.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 395 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 395 Td (Immutable Infrastructure: Deploying pre-built containers rather than mutating) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 383 Td (running servers.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3877
+%%EOF

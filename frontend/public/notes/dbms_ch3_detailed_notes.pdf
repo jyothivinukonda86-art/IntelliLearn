@@ -1,0 +1,105 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4132 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (DATABASE MANAGEMENT SYSTEMS - CHAPTER 3: TRANSACTION PROCESSING, CONCURRENCY CONTROL & RECOVERY) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Transactions, Concurrency Control & Recovery - Detailed Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Database Management Systems   |   Chapter: Chapter 3: Transaction Processing, Concurrency Control & Recovery   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. Transactions & The ACID Properties) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (A transaction is a logical unit of database processing that includes one or more) Tj ET
+BT /F1 9.5 Tf 45 626 Td (database access operations. To maintain database consistency, transactions must) Tj ET
+BT /F1 9.5 Tf 45 613 Td (adhere to ACID properties:) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 595 Td (Atomicity: "All or nothing" execution guaranteed by the Transaction Manager and) Tj ET
+BT /F1 9.5 Tf 45 582 Td (recovery system.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 564 Td (Consistency: Preserves database integrity constraints from one valid state to) Tj ET
+BT /F1 9.5 Tf 45 551 Td (another.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 533 Td (Isolation: Intermediate transaction states are hidden from concurrently executing) Tj ET
+BT /F1 9.5 Tf 45 520 Td (transactions, managed by Concurrency Control.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 502 Td (Durability: Committed updates persist permanently even in the event of system) Tj ET
+BT /F1 9.5 Tf 45 489 Td (crashes or power failures.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 463 Td (2. Serializability & Concurrency Control Anomalies) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 457 m 567 457 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 443 Td (Concurrent transaction execution without isolation introduces anomalies: Dirty Reads) Tj ET
+BT /F1 9.5 Tf 45 430 Td (\(reading uncommitted data\), Non-repeatable Reads \(different reads within same) Tj ET
+BT /F1 9.5 Tf 45 417 Td (transaction\), and Phantom Reads \(new rows inserted during range queries\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 399 Td (Conflict Serializability: A schedule is conflict serializable if it can be) Tj ET
+BT /F1 9.5 Tf 45 386 Td (transformed into a serial schedule by swapping non-conflicting adjacent operations.) Tj ET
+BT /F1 9.5 Tf 45 373 Td (Tested via Precedence Graph \(Serialization Graph\) where cycles denote) Tj ET
+BT /F1 9.5 Tf 45 360 Td (non-serializable schedules.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 334 Td (3. Locking Protocols & Database Recovery) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 328 m 567 328 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 314 Td (Two-Phase Locking \(2PL\): Growing Phase \(acquiring locks, releasing none\) followed by) Tj ET
+BT /F1 9.5 Tf 45 301 Td (Shrinking Phase \(releasing locks, acquiring none\). Guarantees conflict) Tj ET
+BT /F1 9.5 Tf 45 288 Td (serializability.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 270 Td (Strict 2PL: Holds all exclusive locks until commit/abort, preventing cascading) Tj ET
+BT /F1 9.5 Tf 45 257 Td (rollbacks.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 239 Td (Recovery techniques utilize Write-Ahead Logging \(WAL\): Log records must be flushed) Tj ET
+BT /F1 9.5 Tf 45 226 Td (to non-volatile storage before corresponding database disk blocks are written.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 208 Td (ARIES Algorithm implements: Analysis phase \(identifies active transactions and dirty) Tj ET
+BT /F1 9.5 Tf 45 195 Td (pages\), Redo phase \(repeats history to reconstruct state\), and Undo phase \(rolls) Tj ET
+BT /F1 9.5 Tf 45 182 Td (back active uncommitted transactions\).) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4644
+%%EOF

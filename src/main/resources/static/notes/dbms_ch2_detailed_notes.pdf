@@ -1,0 +1,98 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3724 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (DATABASE MANAGEMENT SYSTEMS - CHAPTER 2: NORMALIZATION, RELATIONAL ALGEBRA & INDEXING) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Normalization, Relational Algebra & Indexing - Detailed Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (DETAILED COMPREHENSIVE NOTES) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Database Management Systems   |   Chapter: Chapter 2: Normalization, Relational Algebra & Indexing   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (1. Functional Dependencies & Database Anomalies) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 639 Td (Unnormalized relational designs suffer from modification anomalies: Insertion) Tj ET
+BT /F1 9.5 Tf 45 626 Td (Anomalies \(cannot insert record without unrelated data\), Deletion Anomalies \(loss of) Tj ET
+BT /F1 9.5 Tf 45 613 Td (unintended data when deleting a record\), and Update Anomalies \(data redundancy) Tj ET
+BT /F1 9.5 Tf 45 600 Td (leading to inconsistent state\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 582 Td (A functional dependency X -> Y specifies that if two tuples agree on attributes X,) Tj ET
+BT /F1 9.5 Tf 45 569 Td (they must agree on attributes Y.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 543 Td (2. Normal Forms \(1NF through BCNF\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 537 m 567 537 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 523 Td (1NF \(First Normal Form\): All attribute values must be atomic \(no multivalued or) Tj ET
+BT /F1 9.5 Tf 45 510 Td (composite attributes, unique row identification\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 492 Td (2NF \(Second Normal Form\): In 1NF and no non-prime attribute is partially dependent) Tj ET
+BT /F1 9.5 Tf 45 479 Td (on any candidate key \(eliminates partial dependency\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 461 Td (3NF \(Third Normal Form\): In 2NF and no non-prime attribute is transitively dependent) Tj ET
+BT /F1 9.5 Tf 45 448 Td (on candidate keys. Formally, for X -> Y, either X is a superkey or Y is a prime) Tj ET
+BT /F1 9.5 Tf 45 435 Td (attribute.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 417 Td (BCNF \(Boyce-Codd Normal Form\): A stricter version of 3NF. For every non-trivial) Tj ET
+BT /F1 9.5 Tf 45 404 Td (functional dependency X -> Y, X MUST be a superkey.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 378 Td (3. Relational Algebra & Database Indexing Structures) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 372 m 567 372 l S
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 358 Td (Fundamental Relational Algebra operators: Selection \(sigma\), Projection \(pi\),) Tj ET
+BT /F1 9.5 Tf 45 345 Td (Cartesian Product \(X\), Union \(U\), Set Difference \(-\), and Rename \(rho\).) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 327 Td (Database indexing accelerates query lookup. Primary indexes are built on ordered key) Tj ET
+BT /F1 9.5 Tf 45 314 Td (fields; Clustering indexes on ordered non-key fields; Secondary indexes on unordered) Tj ET
+BT /F1 9.5 Tf 45 301 Td (fields.) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.5 Tf 45 283 Td (B+ Trees are the industry standard index structure: internal nodes store keys and) Tj ET
+BT /F1 9.5 Tf 45 270 Td (child pointers, while all data pointers are stored exclusively in leaf nodes linked) Tj ET
+BT /F1 9.5 Tf 45 257 Td (horizontally as a doubly linked list, optimizing range scans.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4236
+%%EOF

@@ -1,0 +1,101 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3356 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (OPERATING SYSTEMS - CHAPTER 1: OS ARCHITECTURE, SYSTEM CALLS & PROCESS MANAGEMENT) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (OS Architecture & Process Management - Quick Revision Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (QUICK REVISION & EXAM CHEAT SHEET) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Operating Systems   |   Chapter: Chapter 1: OS Architecture, System Calls & Process Management   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (Dual Mode & System Calls) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 639 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 639 Td (Mode Bit: 1 = User Mode; 0 = Kernel Mode.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 626 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 626 Td (Privileged instructions \(I/O, halt, interrupt enable/disable\) can only execute) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 614 Td (in Kernel Mode.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 601 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 601 Td (System Call sequence: User program traps to kernel -> CPU switches mode bit ->) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 589 Td (Kernel executes handler -> Returns to user mode.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 562 Td (Process Memory Layout) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 556 m 567 556 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 542 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 542 Td (Stack \(grows downward\): Local variables, function parameters, stack frames.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 529 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 529 Td (Heap \(grows upward\): Dynamic memory allocated via malloc\(\) or new.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 516 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 516 Td (Data: Initialized global/static variables. BSS: Uninitialized global/static) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 504 Td (variables.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 491 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 491 Td (Text: Read-only executable binary instructions.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 464 Td (Fork & Zombie / Orphan Processes) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 458 m 567 458 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 444 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 444 Td (fork\(\) returns 0 to child, child PID to parent, and negative on error.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 431 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 431 Td (Zombie Process: Child terminated, but parent has not yet invoked wait\(\) to) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 419 Td (read exit status.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 406 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 406 Td (Orphan Process: Parent terminated before child; adopted by init / systemd \(PID) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 394 Td (1\).) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3868
+%%EOF

@@ -1,0 +1,103 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3489 >>
+stream
+0.2 0.28 0.45 rg
+BT /F2 8 Tf 45 764 Td (DATABASE MANAGEMENT SYSTEMS - CHAPTER 3: TRANSACTION PROCESSING, CONCURRENCY CONTROL & RECOVERY) Tj ET
+BT /F1 8 Tf 417 764 Td (IntelliLearn Learning Platform) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 758 m 567 758 l S
+0.1 0.15 0.3 rg
+BT /F2 18 Tf 45 732 Td (Transactions, Concurrency & Recovery - Quick Revision Notes) Tj ET
+0.3 0.35 0.45 rg
+BT /F2 11 Tf 45 710 Td (QUICK REVISION & EXAM CHEAT SHEET) Tj ET
+0.4 0.45 0.55 rg
+BT /F1 9 Tf 45 696 Td (Subject: Database Management Systems   |   Chapter: Chapter 3: Transaction Processing, Concurrency Control & Recovery   |   Academic Year: 2026-2027) Tj ET
+0.3 0.4 0.7 RG 1.5 w
+45 681 m 567 681 l S
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 659 Td (ACID Properties Breakdown) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 653 m 567 653 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 639 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 639 Td (Atomicity -> Recovery Manager \(Rollback / Undo Log\).) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 626 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 626 Td (Consistency -> Application Logic + DBMS Integrity Constraints.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 613 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 613 Td (Isolation -> Concurrency Control Manager \(Locking / Timestamping\).) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 600 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 600 Td (Durability -> Recovery Manager \(Write-Ahead Logging / Redo Log\).) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 573 Td (Isolation Levels & Anomalies) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 567 m 567 567 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 553 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 553 Td (Read Uncommitted: Suffers Dirty Read, Non-repeatable Read, Phantom Read.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 540 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 540 Td (Read Committed: Prevents Dirty Read. Suffers Non-repeatable Read and Phantom) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 528 Td (Read.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 515 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 515 Td (Repeatable Read: Prevents Dirty Read and Non-repeatable Read. May suffer) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 503 Td (Phantom Read.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 490 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 490 Td (Serializable: Prevents all anomalies. Highest isolation and lowest) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 478 Td (concurrency.) Tj ET
+0.15 0.25 0.5 rg
+BT /F2 12 Tf 45 451 Td (Locking Protocols & Serializability) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+45 445 m 567 445 l S
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 431 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 431 Td (2PL guarantees conflict serializability, but can still lead to deadlocks.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 418 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 418 Td (Strict 2PL releases Exclusive \(X\) locks ONLY after transaction commit/abort.) Tj ET
+0.2 0.25 0.3 rg
+0.3 0.45 0.8 rg BT /F2 10 Tf 45 405 Td (*) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 405 Td (Precedence Graph: Edge T1 -> T2 if T1 performs conflicting action before T2.) Tj ET
+0.2 0.25 0.3 rg BT /F1 9 Tf 57 393 Td (Cycle = NOT serializable.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45 36 m 567 36 l S
+0.5 0.55 0.6 rg
+BT /F1 8 Tf 45 25 Td (Intelligent Gamified Learning Platform - Department of Data Science - Team 14) Tj ET
+BT /F2 8 Tf 507 25 Td (Page 1 of 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000125 00000 n 
+0000000261 00000 n 
+0000000358 00000 n 
+0000000460 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4001
+%%EOF
