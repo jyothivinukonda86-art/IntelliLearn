@@ -1,9 +1,11 @@
+
 package com.learningplatform.security;
 
 import java.util.List;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -30,69 +32,95 @@ public class SecurityConfig {
     }
 
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+    public SecurityFilterChain securityFilterChain(HttpSecurity http)
+            throws Exception {
 
         http
             .cors(cors -> cors.configurationSource(corsConfigurationSource()))
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers(org.springframework.http.HttpMethod.OPTIONS, "/**").permitAll()
+
+                .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+
+                // Public authentication endpoints
                 .requestMatchers("/api/auth/**", "/notes/**").permitAll()
 
-                .requestMatchers(org.springframework.http.HttpMethod.GET,
-                        "/api/subjects", "/api/subjects/**").hasAnyRole("STUDENT", "ADMIN")
+                // Public read-only learning content
+                .requestMatchers(HttpMethod.GET,
+                    "/api/subjects", "/api/subjects/**",
+                    "/api/chapters", "/api/chapters/**",
+                    "/api/materials", "/api/materials/**"
+                ).permitAll()
 
-                .requestMatchers(org.springframework.http.HttpMethod.POST,
-                        "/api/quizzes", "/api/quizzes/**").hasAnyRole("STUDENT", "ADMIN")
+                // Quiz access requires authentication
+                .requestMatchers(HttpMethod.POST,
+                    "/api/quizzes/*/submit"
+                ).hasAnyRole("STUDENT", "ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.GET,
-                        "/api/quizzes", "/api/quizzes/**").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.GET,
+                    "/api/quizzes", "/api/quizzes/**"
+                ).hasAnyRole("STUDENT", "ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.POST,
-                        "/api/quizzes/*/submit").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.POST, "/api/quizzes/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.POST,
-                        "/api/subjects", "/api/subjects/**").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.PUT, "/api/quizzes/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.DELETE,
-                        "/api/subjects/**").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.DELETE, "/api/quizzes/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.GET,
-                        "/api/chapters/subject/**", "/api/chapters/**").hasAnyRole("STUDENT", "ADMIN")
+                // Only admins can manage subjects
+                .requestMatchers(HttpMethod.POST, "/api/subjects/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.POST,
-                        "/api/chapters", "/api/chapters/**").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.PUT, "/api/subjects/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.DELETE,
-                        "/api/chapters/**").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.DELETE, "/api/subjects/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers("/api/admin/**").hasAnyRole("STUDENT", "ADMIN")
-                .requestMatchers("/api/student/**").hasAnyRole("STUDENT", "ADMIN")
+                // Only admins can manage chapters
+                .requestMatchers(HttpMethod.POST, "/api/chapters/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.GET,
-                        "/api/materials", "/api/materials/**").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.PUT, "/api/chapters/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.POST,
-                        "/api/materials", "/api/materials/**").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.DELETE, "/api/chapters/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.PUT,
-                        "/api/materials", "/api/materials/**").hasAnyRole("STUDENT", "ADMIN")
+                // Only admins can manage learning materials
+                .requestMatchers(HttpMethod.POST, "/api/materials/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers(org.springframework.http.HttpMethod.DELETE,
-                        "/api/materials", "/api/materials/**").hasAnyRole("STUDENT", "ADMIN")
+                .requestMatchers(HttpMethod.PUT, "/api/materials/**")
+                    .hasRole("ADMIN")
 
-                .requestMatchers("/api/recommendations", "/api/recommendations/**").hasAnyRole("STUDENT", "ADMIN")
-                .requestMatchers("/api/gamification", "/api/gamification/**").hasAnyRole("STUDENT", "ADMIN")
-                .requestMatchers("/api/progress", "/api/progress/**").hasAnyRole("STUDENT", "ADMIN")
-                
+                .requestMatchers(HttpMethod.DELETE, "/api/materials/**")
+                    .hasRole("ADMIN")
+
+                // Admin and student areas
+                .requestMatchers("/api/admin/**").hasRole("ADMIN")
+
+                .requestMatchers("/api/student/**")
+                    .hasAnyRole("STUDENT", "ADMIN")
+
+                .requestMatchers(
+                    "/api/recommendations/**",
+                    "/api/gamification/**",
+                    "/api/progress/**"
+                ).hasAnyRole("STUDENT", "ADMIN")
+
+                // Everything else requires authentication
                 .anyRequest().authenticated()
             )
             .formLogin(form -> form.disable())
             .httpBasic(basic -> basic.disable());
 
         http.addFilterBefore(
-                jwtFilter,
-                UsernamePasswordAuthenticationFilter.class
+            jwtFilter,
+            UsernamePasswordAuthenticationFilter.class
         );
 
         return http.build();
@@ -101,13 +129,25 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOriginPatterns(List.of("*"));
-        configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
+
+        configuration.setAllowedOriginPatterns(List.of(
+            "https://intelli-learn-lovat.vercel.app",
+            "http://localhost:5173",
+            "http://localhost:3000"
+        ));
+
+        configuration.setAllowedMethods(List.of(
+            "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"
+        ));
+
         configuration.setAllowedHeaders(List.of("*"));
         configuration.setAllowCredentials(true);
 
-        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        UrlBasedCorsConfigurationSource source =
+            new UrlBasedCorsConfigurationSource();
+
         source.registerCorsConfiguration("/**", configuration);
+
         return source;
     }
 }
